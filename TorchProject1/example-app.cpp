@@ -36,6 +36,7 @@ int main()
 		// Example forward pass in mixed precision
 		{
 			torch::cuda::amp::AutocastMode autocast_enabled;
+			torch::cuda::amp::AutocastMode autocast_enabled;
 			// auto output = model.forward(tensor_cuda); // Example forward pass
 			// auto loss = loss_function(output, labels); // Compute loss
 
